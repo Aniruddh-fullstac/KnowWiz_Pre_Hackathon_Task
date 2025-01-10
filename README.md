@@ -162,9 +162,6 @@ Make sure all required environment variables are set in your `.env` file:
 ## License
 MIT License - See LICENSE file for details
 
-## Contributors
-- Your Name - Initial work
-
 ## Acknowledgments
 - DataStax Astra DB for database
 - OpenAI for AI capabilities
