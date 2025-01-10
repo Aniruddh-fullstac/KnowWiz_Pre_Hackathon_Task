@@ -3,6 +3,7 @@
 A real-time analytics dashboard for social media performance metrics using Streamlit, Astra DB, and AI-powered insights.
 
 ## Features
+
 - 📊 Real-time metrics visualization
 - 🤖 AI-powered performance insights
 - 📈 Engagement funnel analysis
@@ -11,23 +12,43 @@ A real-time analytics dashboard for social media performance metrics using Strea
 - 💾 Data export capabilities
 
 ## Tech Stack
+
 - **Frontend**: Streamlit
 - **Database**: DataStax Astra DB (Cassandra)
 - **AI**: OpenAI (GPT-4)
 - **Data Processing**: Pandas, Plotly
 
+## Demo
+
+[Watch the demo on YouTube](https://youtu.be/TQcCdB3WXAw)
+
+## Screenshots
+
+![Dashboard Overview](https://i.imghippo.com/files/ITm2690po.jpg)
+
+![Metrics Visualization](https://i.imghippo.com/files/wYl7213NuY.jpg)
+
+![Engagement Analysis](https://i.imghippo.com/files/kN5789bmc.jpg)
+
+![Hashtag Trends](https://i.imghippo.com/files/rJoV6421Tw.jpg)
+
+![Detailed Insights](https://i.imghippo.com/files/JKj4655QqI.jpg)
+
+
 ## Project Structure
 
-    social-media-analytics/
-    ├── src/
-    │   ├── app.py              # Main Streamlit dashboard
-    │   ├── analytics.py        # Data analysis functions
-    │   ├── insight_generator.py # AI insights generation
-    │   ├── init_db.py         # Database initialization
-    │   └── db_connection.py   # Database connectivity
-    ├── .env                   # Environment variables
-    ├── .env.example          # Environment variables template
-    └── requirements.txt      # Python dependencies
+```
+social-media-analytics/
+├── src/
+│   ├── app.py              # Main Streamlit dashboard
+│   ├── analytics.py        # Data analysis functions
+│   ├── insight_generator.py # AI insights generation
+│   ├── init_db.py         # Database initialization
+│   └── db_connection.py   # Database connectivity
+├── .env                   # Environment variables
+├── .env.example          # Environment variables template
+└── requirements.txt      # Python dependencies
+```
 
 ## Quick Start
 
@@ -96,6 +117,7 @@ A real-time analytics dashboard for social media performance metrics using Strea
 ## Dashboard Features
 
 ### Overview Mode
+
 - Total post metrics
 - Engagement rates by post type
 - Trending hashtags analysis
@@ -103,12 +125,14 @@ A real-time analytics dashboard for social media performance metrics using Strea
 - Reach vs Impressions comparison
 
 ### Detailed Analysis
+
 - AI-generated insights
 - Advanced metric correlations
 - Engagement distribution analysis
 - Performance trends
 
 ### Export Capabilities
+
 - CSV export for metrics data
 - JSON export for insights
 - Hashtag performance reports
@@ -117,26 +141,28 @@ A real-time analytics dashboard for social media performance metrics using Strea
 
 ### Common Issues
 
-1. Database Connection:
+1. **Database Connection:**
     ```
     Error: Missing required environment variables
     Solution: Verify all credentials in .env file
     ```
 
-2. API Rate Limits:
+2. **API Rate Limits:**
     ```
     Error: API rate limit exceeded
     Solution: Adjust refresh interval in dashboard settings
     ```
 
-3. Data Loading:
+3. **Data Loading:**
     ```
     Error: No metrics available
     Solution: Run init_db.py to populate sample data
     ```
 
 ### Environment Variables
+
 Make sure all required environment variables are set in your `.env` file:
+
 - `ASTRA_DB_TOKEN`
 - `ASTRA_DB_KEYSPACE`
 - `ASTRA_SECURE_CONNECT_BUNDLE`
@@ -146,6 +172,7 @@ Make sure all required environment variables are set in your `.env` file:
 ## Development
 
 ### Local Development
+
 1. Fork the repository
 2. Create a feature branch
 3. Install development dependencies
@@ -154,15 +181,23 @@ Make sure all required environment variables are set in your `.env` file:
 6. Submit a pull request
 
 ### Code Style
+
 - Follow PEP 8 guidelines
 - Use type hints
 - Add docstrings for functions
 - Comment complex logic
 
 ## License
+
 MIT License - See LICENSE file for details
 
+## Contributors
+
+- Your Name - Initial work
+
 ## Acknowledgments
+
 - DataStax Astra DB for database
 - OpenAI for AI capabilities
-- Streamlit for dashboard framework 
+- Streamlit for dashboard framework
+
